@@ -68,3 +68,17 @@ Digite um número: 5
 1 2 3 4
 1 2 3 4 5
 ```
+## Exercício 5 (Análise de Conjuntos de Clientes)
+Este programa em Python realiza uma análise de dois conjuntos de clientes, verificando a interseção, diferença e união entre eles, e calcula a porcentagem de clientes que estão presentes em apenas um dos conjuntos, em relação ao total de clientes únicos.
+
+### Como funciona
+Este código trabalha com dois conjuntos de clientes, `clientes_A` e `clientes_B`, e realiza operações para comparar e calcular informações sobre os clientes presentes em um ou ambos os conjuntos. Primeiro, ele encontra os clientes que estão em ambos os conjuntos (`clientes_em_ambos`), os que estão apenas no conjunto `clientes_A` (`clientes_apenas_A`), os que estão em apenas um dos conjuntos (`clientes_apenas_um_conjunto`), e todos os clientes únicos presentes nos dois conjuntos (`clientes_unicos`). Em seguida, calcula a porcentagem de clientes que estão em apenas um dos conjuntos, em relação ao total de clientes únicos, e imprime os resultados. As operações de conjuntos como `&`, `-`, `^` e `|` são usadas para interseção, diferença, diferença simétrica e união, respectivamente.
+
+#### Exemplo de execução
+
+```
+Clientes em ambos os conjuntos: {'Cesar', 'Anderson'}
+Clientes apenas em clientes_A: {'Alice', 'Bob'}
+Clientes em apenas um dos conjuntos: {'Bruno', 'Gabriel', 'Alice', 'Bob'}
+Porcentagem de clientes únicos: 50.0 %
+```

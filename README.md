@@ -52,3 +52,19 @@ Digite o número limite: 20
 17 é primo
 19 é primo
 ```
+## Exercício 4(Pirâmide Numérica)
+Este programa em Python cria uma pirâmide numérica com base no número inserido pelo usuário. A pirâmide pode ser gerada de forma crescente ou decrescente, dependendo da configuração escolhida.
+
+### Como funciona
+Este código define uma função chamada `piramide()` que imprime uma pirâmide numérica com base no número fornecido pelo usuário. A função recebe dois parâmetros: `n`, que é a altura da pirâmide, e `crescente`, que determina se a pirâmide será impressa de forma crescente (do 1 até `n`) ou decrescente (de `n` até 1). A função utiliza um loop `for` para iterar de 1 até `n` (ou de `n` até 1, caso `crescente` seja `False`), e, em cada iteração, imprime uma linha com números de 1 até o valor atual da iteração, formando assim uma pirâmide. O número limite `n` é obtido a partir da entrada do usuário e passado para a função.
+
+#### Exemplo de execução
+
+```
+Digite um número: 5
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+```

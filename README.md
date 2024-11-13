@@ -1,6 +1,6 @@
 # Recuperação
 
-## Exercício 1(Calculadora de IMC)
+## Exercício 1 (Calculadora de IMC)
 Este é um simples programa em Python para calcular o Índice de Massa Corporal (IMC) de uma pessoa.
 O código solicita ao usuário que insira seu peso e altura, realiza o cálculo do IMC e exibe o resultado.
 
@@ -19,7 +19,7 @@ Digite sua altura: 1.75
 IMC:  22.86
 ```
 
-## Exercício 2(Calculadora Simples)
+## Exercício 2 (Calculadora Simples)
 Este é um programa em Python que funciona como uma calculadora simples. O usuário insere dois números e escolhe uma operação matemática (soma, subtração, multiplicação ou divisão), e o programa realiza o cálculo e exibe o resultado.
 
 ### Como funciona
@@ -33,7 +33,7 @@ Digite outro número: 5
 Digite o operador (+, -, *, /): +
 Resultado: 15
 ```
-## Exercício 3(Identificador de Números Primos)
+## Exercício 3 (Identificador de Números Primos)
 Este programa em Python solicita ao usuário um número limite e, em seguida, exibe todos os números primos de 1 até esse limite. Um número é considerado primo se for maior que 1 e não for divisível por nenhum outro número além de 1 e ele mesmo.
 
 ### Como funciona
@@ -52,7 +52,7 @@ Digite o número limite: 20
 17 é primo
 19 é primo
 ```
-## Exercício 4(Pirâmide Numérica)
+## Exercício 4 (Pirâmide Numérica)
 Este programa em Python cria uma pirâmide numérica com base no número inserido pelo usuário. A pirâmide pode ser gerada de forma crescente ou decrescente, dependendo da configuração escolhida.
 
 ### Como funciona

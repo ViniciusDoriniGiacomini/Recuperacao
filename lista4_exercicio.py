@@ -4,4 +4,3 @@ def piramide(n, crescente=True):
 
 numero = int(input("Digite um número: "))
 piramide(numero)
-

@@ -33,3 +33,22 @@ Digite outro número: 5
 Digite o operador (+, -, *, /): +
 Resultado: 15
 ```
+## Exercício 3(Identificador de Números Primos)
+Este programa em Python solicita ao usuário um número limite e, em seguida, exibe todos os números primos de 1 até esse limite. Um número é considerado primo se for maior que 1 e não for divisível por nenhum outro número além de 1 e ele mesmo.
+
+### Como funciona
+Este código solicita ao usuário um número limite e, em seguida, chama a função `mostrar_primos()` para exibir todos os números primos de 1 até esse limite. A função percorre os números de 1 até o limite, verificando se cada número é primo. Para isso, ela verifica se o número é divisível por algum número entre 2 e ele mesmo (excluindo o próprio número), usando um loop aninhado. Se o número não for divisível por nenhum outro número, ele é considerado primo e é impresso na tela. Se for divisível, o loop é interrompido e o próximo número é verificado.
+
+#### Exemplo de execução
+
+```
+Digite o número limite: 20
+2 é primo
+3 é primo
+5 é primo
+7 é primo
+11 é primo
+13 é primo
+17 é primo
+19 é primo
+```

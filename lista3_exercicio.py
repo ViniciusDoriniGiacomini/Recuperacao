@@ -1,5 +1,4 @@
 n = int(input("Digite o número limite: "))
-mostrar_primos(n)
 
 def mostrar_primos(n):
     for num in range(1, n + 1):
@@ -9,3 +8,4 @@ def mostrar_primos(n):
                     break
             else:
                 print(f"{num} é primo")
+mostrar_primos(n)
